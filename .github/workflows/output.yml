@@ -4,7 +4,7 @@ jobs:
   info:
     runs-on: ubuntu-latest
     steps:
-      - name: Output github context
+      - name: Output github 'context data' (meta info)
         id: github_context_step
         run: echo $JSON
         env:
